@@ -4,7 +4,7 @@
 #### File searching within a directory and subdirectories
 
 
-![Preview](images/exists.png)
+![Preview](../../Images/exists.png)
 
 ![Static Badge](https://img.shields.io/badge/fedora-lightblue%20%20%20%20%20%20%20%20%20%20?style=for-the-badge&logo=fedora&logoColor=lightblue&logoSize=auto&labelColor=black)  ![Static Badge](https://img.shields.io/badge/redhat-darkred%20%20%20%20%20%20?style=for-the-badge&logo=redhat&logoColor=darkred&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/ubuntu-orange?style=for-the-badge&logo=ubuntu&logoColor=orange&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/debian-gray?style=for-the-badge&logo=debian&logoColor=white&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/macos-darkviolet?style=for-the-badge&logo=apple&logoColor=darkviolet&logoSize=auto&labelColor=black)
 
@@ -85,7 +85,7 @@ $ ./file_exists.sh
 ######  File Name
 After running the script, you will be prompted to enter the name of the file you want to search for:
 
-![Preview](images/pic1.png)
+![Preview](../../Images/pic1.png)
 
 Type the exact name of the file you want to locate (including the extension if applicable) and press`Enter`.
 
@@ -93,11 +93,11 @@ Type the exact name of the file you want to locate (including the extension if a
 ###### Output
 If the file exists, you will see a message like this:
 
-![Preview](images/exists.png)
+![Preview](../../Images/exists.png)
 
 If the file does not exist, you will see this message:
 
-![Preview](images/pic2.png)
+![Preview](../../Images/pic2.png)
 
 
 
