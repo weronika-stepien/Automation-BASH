@@ -1,47 +1,23 @@
-# <center></centerSoftware>File Manager
-#### <center> Providing user with the ability to perform a wide range of file operations</center>
-<p align="center">
+<div align="center">
 
-[![GIF](https://upload.wikimedia.org/wikipedia/commons/d/df/Wikisp-logo-icon-black.svg "GIF")](https://upload.wikimedia.org/wikipedia/commons/d/df/Wikisp-logo-icon-black.svg "GIF")
+# File Manager
+#### <center> Providing user with the ability to perform a wide range of file operations</center>
+
+
+![Preview](../../Images/files_manager.gif)
 
 ![Static Badge](https://img.shields.io/badge/fedora-lightblue%20%20%20%20%20%20%20%20%20%20?style=for-the-badge&logo=fedora&logoColor=lightblue&logoSize=auto&labelColor=black)  ![Static Badge](https://img.shields.io/badge/redhat-darkred%20%20%20%20%20%20?style=for-the-badge&logo=redhat&logoColor=darkred&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/ubuntu-orange?style=for-the-badge&logo=ubuntu&logoColor=orange&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/debian-gray?style=for-the-badge&logo=debian&logoColor=white&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/macos-darkviolet?style=for-the-badge&logo=apple&logoColor=darkviolet&logoSize=auto&labelColor=black)
 
-</p>
+
 
 ------------
 
-<p align="center">
+
 ![Static Badge](https://img.shields.io/badge/Table%20%20%20%20%20%20%20%20%20%20%20of%20%20%20%20%20%20%20%20%20%20Contents-blue?style=for-the-badge&logoColor=darkviolet)
 
 **| [Overview](#overview) | [Key Features](#key-features) | [User Manual](#user-manual) | [Ongoing Improvements and Known Bugs](#ongoing-improvements-and-known-bugs) | [Found a Bug?](#found-a-bug) |**
 
-</p>
 
-
-
-------------
-
-
-
-## <center>Overview</center>
-<p align="center">This Bash-based script offers powerful file management capabilities, making it easy to search for files across the system, view detailed information and perform operations like copying, moving, and deleting. With real-time feedback and confirmation prompts, it safeguards against accidental actions, ensuring that user can operate securely and efficiently in their Linux environment.</p>
-
-
-------------
-
-
-
-## <center>Key Features</center>
-##### <center>Path Assistance</center>
-###### <center>Assists in locating files or directories if there is no knowledge of the exact path.</center>
-##### <center>Search Responses</center>
-###### <center>Automatically displays all files matching the search criteria, giving users a clear list to select from.</center>
-##### <center>Batch Operations</center>
-###### <center>Supports multiple file operations, enabling users to copy, move, or delete multiple files simultaneously.</center>
-##### <center>Personalizable Actions</center>
-###### <center>Users can choose to perform operations like copying or moving files either in the same directory or to a different destination and rename it.</center>
-##### <center>Export</center>
-###### <center> Allows users to export detailed file information, such as size and path, to external logs for reference or documentation.</center>
 
 
 
@@ -49,7 +25,36 @@
 
 
 
-## <center>User Manual</center>
+## Overview
+This Bash-based script offers powerful file management capabilities, making it easy to search for files across the system, view detailed information and perform operations like copying, moving, and deleting. With real-time feedback and confirmation prompts, it safeguards against accidental actions, ensuring that user can operate securely and efficiently in their Linux environment.
+
+
+------------
+
+
+
+## Key Features
+##### Path Assistance
+###### Assists in locating files or directories if there is no knowledge of the exact path.
+##### Search Responses
+###### Automatically displays all files matching the search criteria, giving users a clear list to select from.
+##### Batch Operations
+###### Supports multiple file operations, enabling users to copy, move, or delete multiple files simultaneously.
+##### Personalizable Actions<
+###### Users can choose to perform operations like copying or moving files either in the same directory or to a different destination and rename it.
+##### Export
+###### Allows users to export detailed file information, such as size and path, to external logs for reference or documentation.
+
+
+
+------------
+
+
+
+## User Manual
+
+</div>
+
 #### Prerequisites
 Ensure that the following are installed on your system:
 - Bash shell (`/bin/bash`)
@@ -166,7 +171,9 @@ $ search_file=$(sudo find /home/user/documents -type f -name "$file_name" 2>/dev
 
 ------------
 
-## <center>Ongoing Improvements and Known Bugs</center>
+<div align="center">
+
+## Ongoing Improvements and Known Bugs
 | # | Name           | Type             | Description                                                                                                                                                                                     |
 |---|----------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1 | Search Filters | Work in progress | A feature under development to allow users to filter search results based on file size, type, creation/modification dates, or other metadata, making file searches more targeted and efficient. |
@@ -175,12 +182,13 @@ $ search_file=$(sudo find /home/user/documents -type f -name "$file_name" 2>/dev
 
 ------------
 
-## <center>Found a bug?</center>
-<p align="center">
+## Found a bug?
+
 If you encounter any issues or bugs while using this project, please feel free to open an issue in the Issues section of the repository. Make sure to describe the bug in detail, providing steps to reproduce, expected behavior, and any relevant logs or screenshots.
 
 If you'd like to contribute a fix for the issue, you're welcome to submit a pull request (PR). When submitting a PR, please reference the issue number and provide a description of the changes made.
-</p>
+
+</div>
 
 ------------
 

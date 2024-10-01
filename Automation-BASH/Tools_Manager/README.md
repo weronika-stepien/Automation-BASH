@@ -1,21 +1,23 @@
-# <center></centerSoftware>Tools Manager
-#### <center> Automate the management of system packages</center>
-<p align="center">
+<div align="center">
 
-[![GIF](https://upload.wikimedia.org/wikipedia/commons/d/df/Wikisp-logo-icon-black.svg "GIF")](https://upload.wikimedia.org/wikipedia/commons/d/df/Wikisp-logo-icon-black.svg "GIF")
+# Tools Manager
+#### Automate the management of system packages
+
+
+![Preview](../../Images/tools_manager.gif)
+
 
 ![Static Badge](https://img.shields.io/badge/fedora-lightblue%20%20%20%20%20%20%20%20%20%20?style=for-the-badge&logo=fedora&logoColor=lightblue&logoSize=auto&labelColor=black)  ![Static Badge](https://img.shields.io/badge/redhat-darkred%20%20%20%20%20%20?style=for-the-badge&logo=redhat&logoColor=darkred&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/ubuntu-orange?style=for-the-badge&logo=ubuntu&logoColor=orange&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/debian-gray?style=for-the-badge&logo=debian&logoColor=white&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/macos-darkviolet?style=for-the-badge&logo=apple&logoColor=darkviolet&logoSize=auto&labelColor=black)
 
-</p>
+
 
 ------------
 
-<p align="center">
+
 ![Static Badge](https://img.shields.io/badge/Table%20%20%20%20%20%20%20%20%20%20%20of%20%20%20%20%20%20%20%20%20%20Contents-blue?style=for-the-badge&logoColor=darkviolet)
 
 **| [Overview](#overview) | [Key Features](#key-features) | [User Manual](#user-manual) | [Ongoing Improvements and Known Bugs](#ongoing-improvements-and-known-bugs) | [Found a Bug?](#found-a-bug) |**
 
-</p>
 
 
 
@@ -23,32 +25,34 @@
 
 
 
-## <center>Overview</center>
-<p align="center">Automates system package management across various Linux distributions and macOS. With built-in OS detection, it intelligently adapts to each operating system and provides adequate commands to install, view, or uninstall software, making it easy to manage tools and packages without needing specialized knowledge of each system</p>
+## Overview
+Automates system package management across various Linux distributions and macOS. With built-in OS detection, it intelligently adapts to each operating system and provides adequate commands to install, view, or uninstall software, making it easy to manage tools and packages without needing specialized knowledge of each system
 
 
 ------------
 
 
 
-## <center>Key Features</center>
-##### <center>OS Detection</center>
-###### <center> Detects the operating system in use and adjusts package management commands accordingly.</center>
-##### <center>Menu-Based</center>
-###### <center>  Offers a simple, interactive menu to easily navigate through different package management options.</center>
-##### <center>Overview</center>
-###### <center> Provides an option to view all installed tools and packages with a single command.</center>
-##### <center>Protection</center>
-###### <center>Prevents the removal of essential system utilities, ensuring the integrity of the operating system.</center>
-##### <center>Batch Installation / Removal</center>
-###### <center>Allows users to select and remove or install  multiple tools and packages in one go. </center>
+## Key Features
+##### OS Detection
+###### Detects the operating system in use and adjusts package management commands accordingly.
+##### Menu-Based
+###### Offers a simple, interactive menu to easily navigate through different package management options.
+##### Overview
+###### Provides an option to view all installed tools and packages with a single command.
+##### Protection
+###### Prevents the removal of essential system utilities, ensuring the integrity of the operating system.
+##### Batch Installation / Removal
+###### Allows users to select and remove or install  multiple tools and packages in one go. 
 
 
 ------------
 
 
 
-## <center>User Manual</center>
+## User Manual
+</div>
+
 #### Prerequisites
 Ensure that the following are installed on your system:
 - Bash shell (`/bin/bash`)
@@ -173,8 +177,9 @@ $ tools_rpm=("yum" "dnf" "rpm" "cronie" "new-tool")
 4. Save the changes and rerun the script.
 
 ------------
+<div align="center">
 
-## <center>Ongoing Improvements and Known Bugs</center>
+## Ongoing Improvements and Known Bugs
 
 | # | Name              | Type             | Description                                                                                                                                                |
 |---|-------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -186,12 +191,12 @@ $ tools_rpm=("yum" "dnf" "rpm" "cronie" "new-tool")
 
 ------------
 
-## <center>Found a bug?</center>
-<p align="center">
+## Found a bug?
+
 If you encounter any issues or bugs while using this project, please feel free to open an issue in the Issues section of the repository. Make sure to describe the bug in detail, providing steps to reproduce, expected behavior, and any relevant logs or screenshots.
 
 If you'd like to contribute a fix for the issue, you're welcome to submit a pull request (PR). When submitting a PR, please reference the issue number and provide a description of the changes made.
-</p>
+
 
 ------------
 

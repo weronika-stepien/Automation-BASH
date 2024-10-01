@@ -1,8 +1,11 @@
-# <center></centerSoftware>Software Management Automation Tool
-#### <center>Automate software lifecycle management to simplify DevOps operations</center>
-<p align="center">
+<div align="center">
 
-[![GIF](https://upload.wikimedia.org/wikipedia/commons/d/df/Wikisp-logo-icon-black.svg "GIF")](https://upload.wikimedia.org/wikipedia/commons/d/df/Wikisp-logo-icon-black.svg "GIF")
+# Software Management Automation Tool
+#### Automate software lifecycle management to simplify DevOps operations
+
+
+![Preview](../../Images/software_manager.gif)
+
 
 ![Static Badge](https://img.shields.io/badge/fedora-lightblue%20%20%20%20%20%20%20%20%20%20?style=for-the-badge&logo=fedora&logoColor=lightblue&logoSize=auto&labelColor=black)  ![Static Badge](https://img.shields.io/badge/redha#!/bin/bash
 
@@ -14,48 +17,50 @@ t-darkred%20%20%20%20%20%20?style=for-the-badge&logo=redhat&logoColor=darkred&lo
 ![Static Badge](https://img.shields.io/badge/Table%20%20%20%20%20%20%20%20%20%20%20of%20%20%20%20%20%20%20%20%20%20Contents-blue?style=for-the-badge&logoColor=darkviolet)
 
 **| [Overview](#overview) | [Key Features](#key-features) | [User Manual](#user-manual) | [Ongoing Improvements and Known Bugs](#ongoing-improvements-and-known-bugs) | [Found a Bug?](#found-a-bug) |**
-</p>
-
-------------
-
-## <center>Overview</center>
-<p align="center">This project enables programs and services management to improve software lifecycle automation on Linux and macOS platforms. With modular architecture and intelligent OS detection, it provides any user with the ability to manage installation, configuration, and service status checks. The dynamic, menu-driven interface makes tasks such as toggling services and post-install configurations effortless while offering real-time feedback. Coupled with strong error handling, the tool ensures reliable operation across multiple distributions, reducing the need for manual oversight in multi-system environments and boosting overall efficiency.
-
-</p>
-
-------------
-
-## <center>Key Features</center>
-##### <center>OS Detection </center>
-###### <center> Automatically identifies the operating system and distribution to apply appropriate package managers and commands.</center>
-
-##### <center>Service and Program Overview</center>
-###### <center>  Organizes installed programs and services into separate columns, grouping them into relevant categories for better readability and management.</center>
-##### <center>  Active and Inactive Services Highlight</center>
-###### <center>  Automatically highlights active services in green and inactive services in red, allowing users to quickly distinguish between operational and non-operational services.</center>
-##### <center>  Dynamic Display</center>
-###### <center>  Updates the active/inactive status of services dynamically without requiring a manual refresh.</center>
-##### <center>  Automated Batch Installation</center>
-###### <center>  Enables the installation of multiple services or programs in one go while requiring minimal user input and providing real-time progress updates for each step of the installation.</center>
-##### <center>Configuration</center>
-###### <center>After installation, additional configuration steps are automatically handled, enabling users to use their tools without manually adjusting settings.</center>
-##### <center>  Selective Removal </center>
-###### <center>  Empowers users to uninstall specific services or programs with a simple menu-based selection.</center>
-##### <center>  Service and Program Cleanup</center>
-###### <center>  Uninstalls software while safely removing associated dependencies, ensuring that the system remains free of unused packages without disrupting other services.</center>
-##### <center>  Error Feedback</center>
-###### <center>  Includes built-in validation and error handling to ensure smooth operation, minimizing system disruptions during installations or service management.</center>
-##### <center>  Rollback</center>
-###### <center>  Allows users to revert to the previous state in case an installation introduces issues or conflicts with existing services.</center>
-##### <center>  Customization</center>
-###### <center>  Enables easy integration of new services or programs by simply extending predefined arrays and functions.</center>
 
 
 ------------
 
+## Overview
+This project enables programs and services management to improve software lifecycle automation on Linux and macOS platforms. With modular architecture and intelligent OS detection, it provides any user with the ability to manage installation, configuration, and service status checks. The dynamic, menu-driven interface makes tasks such as toggling services and post-install configurations effortless while offering real-time feedback. Coupled with strong error handling, the tool ensures reliable operation across multiple distributions, reducing the need for manual oversight in multi-system environments and boosting overall efficiency.
 
 
-## <center>User Manual</center>
+
+------------
+
+## Key Features
+##### OS Detection 
+###### Automatically identifies the operating system and distribution to apply appropriate package managers and commands.
+
+##### Service and Program Overview
+###### Organizes installed programs and services into separate columns, grouping them into relevant categories for better readability and management.
+##### Active and Inactive Services Highlight
+###### Automatically highlights active services in green and inactive services in red, allowing users to quickly distinguish between operational and non-operational services.
+##### Dynamic Display
+###### Updates the active/inactive status of services dynamically without requiring a manual refresh.
+##### Automated Batch Installation
+###### Enables the installation of multiple services or programs in one go while requiring minimal user input and providing real-time progress updates for each step of the installation.
+##### Configuration
+###### After installation, additional configuration steps are automatically handled, enabling users to use their tools without manually adjusting settings.
+##### Selective Removal
+###### Empowers users to uninstall specific services or programs with a simple menu-based selection.
+##### Service and Program Cleanup
+###### Uninstalls software while safely removing associated dependencies, ensuring that the system remains free of unused packages without disrupting other services.
+##### Error Feedback
+###### Includes built-in validation and error handling to ensure smooth operation, minimizing system disruptions during installations or service management.
+##### Rollback
+###### Allows users to revert to the previous state in case an installation introduces issues or conflicts with existing services.
+##### Customization
+###### Enables easy integration of new services or programs by simply extending predefined arrays and functions.
+
+
+------------
+
+
+
+## User Manual
+</div>
+
 #### 1. Prerequisites
 Ensure that the following are installed on your system:
 - Bash shell (`/bin/bash`)

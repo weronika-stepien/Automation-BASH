@@ -1,54 +1,58 @@
-# <center></centerSoftware>Keyword Founder
-#### <center> Simplify the task of identifying files that contain specific keywords within a directory or across the entire system</center>
-<p align="center">
+<div align="center">
 
-[![GIF](https://upload.wikimedia.org/wikipedia/commons/d/df/Wikisp-logo-icon-black.svg "GIF")](https://upload.wikimedia.org/wikipedia/commons/d/df/Wikisp-logo-icon-black.svg "GIF")
+# Keyword Founder
+#### Simplify the task of identifying files that contain specific keywords within a directory or across the entire system
+
+
+![Preview](../../Images/keyword-founder.gif)
 
 ![Static Badge](https://img.shields.io/badge/fedora-lightblue%20%20%20%20%20%20%20%20%20%20?style=for-the-badge&logo=fedora&logoColor=lightblue&logoSize=auto&labelColor=black)  ![Static Badge](https://img.shields.io/badge/redhat-darkred%20%20%20%20%20%20?style=for-the-badge&logo=redhat&logoColor=darkred&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/ubuntu-orange?style=for-the-badge&logo=ubuntu&logoColor=orange&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/debian-gray?style=for-the-badge&logo=debian&logoColor=white&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/macos-darkviolet?style=for-the-badge&logo=apple&logoColor=darkviolet&logoSize=auto&labelColor=black)
 
-</p>
+
 
 ------------
 
-<p align="center">
+
 ![Static Badge](https://img.shields.io/badge/Table%20%20%20%20%20%20%20%20%20%20%20of%20%20%20%20%20%20%20%20%20%20Contents-blue?style=for-the-badge&logoColor=darkviolet)
 
 **| [Overview](#overview) | [Key Features](#key-features) | [User Manual](#user-manual) | [Ongoing Improvements and Known Bugs](#ongoing-improvements-and-known-bugs) | [Found a Bug?](#found-a-bug) |**
 
-</p>
 
 
-
-------------
-
-
-
-## <center>Overview</center>
-<p align="center">Keyword Founder is a Bash script that automates the keyword search process by offering a dynamic, menu-based interface. It can handle single-file searches, directory-wide searches, and multi-directory searches, making it ideal for analyzing large datasets or code repositories. The program also offers options to view or export search results for later reference.</p>
 
 
 ------------
 
 
 
-## <center>Key Features</center>
-##### <center>User-Friendly Menu</center>
-###### <center>  Includes a dynamic, text-based menu system for easy navigation through various search options.</center>
-##### <center>Multiple Search Modes</center>
-###### <center> Supports searching within a single file, a complete directory, or across multiple files and directories.</center>
-##### <center>Path Flexibility</center>
-###### <center> Automatically handles unknown file and directory paths, allowing users to perform searches without needing to manually locate files.</center>
-##### <center>Keyword Occurrence</center>
-###### <center>Displays the number of keyword occurrences directly in the terminal with line numbers.</center>
-##### <center>Exporting Results</center>
-###### <center>Offers the option to export search results to a file, making it easy to save and reference them later.</center>
+## Overview
+Keyword Founder is a Bash script that automates the keyword search process by offering a dynamic, menu-based interface. It can handle single-file searches, directory-wide searches, and multi-directory searches, making it ideal for analyzing large datasets or code repositories. The program also offers options to view or export search results for later reference.
 
 
 ------------
 
 
 
-## <center>User Manual</center>
+## Key Features
+##### User-Friendly Menu
+###### Includes a dynamic, text-based menu system for easy navigation through various search options.
+##### Multiple Search Modes
+###### Supports searching within a single file, a complete directory, or across multiple files and directories.
+##### Path Flexibility
+###### Automatically handles unknown file and directory paths, allowing users to perform searches without needing to manually locate files.
+##### Keyword Occurrence
+###### Displays the number of keyword occurrences directly in the terminal with line numbers.
+##### Exporting Results
+###### Offers the option to export search results to a file, making it easy to save and reference them later.
+
+
+------------
+
+
+
+## User Manual
+</div>
+
 ####  Requirements
 - External script
 
@@ -145,8 +149,9 @@ $ echo "$occurrences" | nl > "${keyword}_occurrences_$timestamp.txt"
 ```
 ------------
 
-## <center>Ongoing Improvements and Known Bugs</center>
+<div align="center">
 
+## Ongoing Improvements and Known Bugs
 | # | Name               | Type             | Description                                                                                                                                                                                               |
 |---|--------------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1 | Filters            | Work in progress | Search options that allow to filter by file type, size, or date modified, making searches more targeted and efficient.                                                        |
@@ -159,12 +164,12 @@ $ echo "$occurrences" | nl > "${keyword}_occurrences_$timestamp.txt"
 
 ------------
 
-## <center>Found a bug?</center>
-<p align="center">
+## Found a bug?
 If you encounter any issues or bugs while using this project, please feel free to open an issue in the Issues section of the repository. Make sure to describe the bug in detail, providing steps to reproduce, expected behavior, and any relevant logs or screenshots.
 
 If you'd like to contribute a fix for the issue, you're welcome to submit a pull request (PR). When submitting a PR, please reference the issue number and provide a description of the changes made.
-</p>
+
+</div>
 
 ------------
 

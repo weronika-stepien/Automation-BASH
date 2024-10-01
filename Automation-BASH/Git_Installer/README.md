@@ -1,21 +1,22 @@
-# <center></centerSoftware>Git Installer
-#### <center> Automating the software installation </center>
-<p align="center">
+<div align="center">
 
-[![GIF](https://upload.wikimedia.org/wikipedia/commons/d/df/Wikisp-logo-icon-black.svg "GIF")](https://upload.wikimedia.org/wikipedia/commons/d/df/Wikisp-logo-icon-black.svg "GIF")
+# Git Installer
+#### Automating the software installation 
+
+
+![Preview](../../Images/git.png)
 
 ![Static Badge](https://img.shields.io/badge/fedora-lightblue%20%20%20%20%20%20%20%20%20%20?style=for-the-badge&logo=fedora&logoColor=lightblue&logoSize=auto&labelColor=black)  ![Static Badge](https://img.shields.io/badge/redhat-darkred%20%20%20%20%20%20?style=for-the-badge&logo=redhat&logoColor=darkred&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/ubuntu-orange?style=for-the-badge&logo=ubuntu&logoColor=orange&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/debian-gray?style=for-the-badge&logo=debian&logoColor=white&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/macos-darkviolet?style=for-the-badge&logo=apple&logoColor=darkviolet&logoSize=auto&labelColor=black)
 
-</p>
+
 
 ------------
 
-<p align="center">
+
 ![Static Badge](https://img.shields.io/badge/Table%20%20%20%20%20%20%20%20%20%20%20of%20%20%20%20%20%20%20%20%20%20Contents-blue?style=for-the-badge&logoColor=darkviolet)
 
 **| [Overview](#overview) | [Key Features](#key-features) | [User Manual](#user-manual) | [Ongoing Improvements and Known Bugs](#ongoing-improvements-and-known-bugs) | [Found a Bug?](#found-a-bug) |**
 
-</p>
 
 
 
@@ -23,32 +24,34 @@
 
 
 
-## <center>Overview</center>
-<p align="center">This script automates the process of installing `Git` on Linux-based distributions and macOS. It detects the operating system and ensures that program is not already installed, preventing redundant installations. If necessary, it installs the software using the appropriate package manager for the detected OS, and provides feedback throughout the process.</p>
+## Overview
+This script automates the process of installing `Git` on Linux-based distributions and macOS. It detects the operating system and ensures that program is not already installed, preventing redundant installations. If necessary, it installs the software using the appropriate package manager for the detected OS, and provides feedback throughout the process.
 
 
 ------------
 
 
 
-## <center>Key Features</center>
-##### <center>Automated OS Detection</center>
-###### <center> The script automatically detects the user's operating system and chooses the appropriate installation method based on that information.</center>
-##### <center>Pre-Installation Check</center>
-###### <center>Before installing, the script checks if `Git` is already installed on the system, preventing redundant installations.</center>
-##### <center>User Confirmation</center>
-###### <center>Before proceeding with the installation, the script prompts the user for confirmation, allowing them to decide whether or not to continue.</center>
-##### <center>Clear Output</center>
-###### <center>The script provides clean and structured output, allowing the user to easily follow the installation process and see the results.</center>
-##### <center>Integration</center>
-###### <center>The script integrates smoothly with other system processes, making it ideal for use in automated setups or DevOps pipelines.</center>
+## Key Features
+##### Automated OS Detection
+###### The script automatically detects the user's operating system and chooses the appropriate installation method based on that information.
+##### Pre-Installation Check
+###### Before installing, the script checks if `Git` is already installed on the system, preventing redundant installations.
+##### User Confirmation
+###### Before proceeding with the installation, the script prompts the user for confirmation, allowing them to decide whether or not to continue.
+##### Clear Output
+###### The script provides clean and structured output, allowing the user to easily follow the installation process and see the results.
+##### Integration
+###### The script integrates smoothly with other system processes, making it ideal for use in automated setups or DevOps pipelines.
 
 
 ------------
 
 
 
-## <center>User Manual</center>
+## User Manual
+</div>
+
 ####  Requirements
 - External script
 
@@ -95,8 +98,10 @@ $ sudo -v
 - **Unsupported OS:** The script will display an error message if it detects an unsupported operating system.
 
 ------------
+<div align="center">
 
-## <center>Ongoing Improvements and Known Bugs</center>
+
+## Ongoing Improvements and Known Bugs
 
 | # | Name                  | Type             | Description                                                                                                                                                   |
 |---|-----------------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -108,12 +113,13 @@ $ sudo -v
 
 ------------
 
-## <center>Found a bug?</center>
-<p align="center">
+## Found a bug?
+
 If you encounter any issues or bugs while using this project, please feel free to open an issue in the Issues section of the repository. Make sure to describe the bug in detail, providing steps to reproduce, expected behavior, and any relevant logs or screenshots.
 
 If you'd like to contribute a fix for the issue, you're welcome to submit a pull request (PR). When submitting a PR, please reference the issue number and provide a description of the changes made.
-</p>
+
+</div>
 
 ------------
 
