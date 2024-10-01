@@ -1,47 +1,22 @@
-# <center></centerSoftware>Guess Number
-#### <center> Game that challenges the user to guess a randomly generated number</center>
-<p align="center">
+<div align="center">
 
-[![GIF](https://upload.wikimedia.org/wikipedia/commons/d/df/Wikisp-logo-icon-black.svg "GIF")](https://upload.wikimedia.org/wikipedia/commons/d/df/Wikisp-logo-icon-black.svg "GIF")
+# Guess Number
+####  Game that challenges the user to guess a randomly generated number
+
+![Preview](../../Images/guess_number_game.gif)
 
 ![Static Badge](https://img.shields.io/badge/fedora-lightblue%20%20%20%20%20%20%20%20%20%20?style=for-the-badge&logo=fedora&logoColor=lightblue&logoSize=auto&labelColor=black)  ![Static Badge](https://img.shields.io/badge/redhat-darkred%20%20%20%20%20%20?style=for-the-badge&logo=redhat&logoColor=darkred&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/ubuntu-orange?style=for-the-badge&logo=ubuntu&logoColor=orange&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/debian-gray?style=for-the-badge&logo=debian&logoColor=white&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/macos-darkviolet?style=for-the-badge&logo=apple&logoColor=darkviolet&logoSize=auto&labelColor=black)
 
-</p>
+
 
 ------------
 
-<p align="center">
+
 ![Static Badge](https://img.shields.io/badge/Table%20%20%20%20%20%20%20%20%20%20%20of%20%20%20%20%20%20%20%20%20%20Contents-blue?style=for-the-badge&logoColor=darkviolet)
 
 **| [Overview](#overview) | [Key Features](#key-features) | [User Manual](#user-manual) | [Ongoing Improvements and Known Bugs](#ongoing-improvements-and-known-bugs) | [Found a Bug?](#found-a-bug) |**
 
-</p>
 
-
-
-------------
-
-
-
-## <center>Overview</center>
-<p align="center">The Number Guessing Game offers an interactive way to test your guessing skills. Players are asked to guess a number, with feedback provided after each attempt to indicate if the guess was too high or too low. There are no restrictions on how many attempts can be made, and users can quit at any time.</p>
-
-
-------------
-
-
-
-## <center>Key Features</center>
-##### <center>Non-Restrictive</center>
-###### <center> The player can guess as many times as they need without a time limit or penalties for incorrect guesses.</center>
-##### <center>Tracking Attempts</center>
-###### <center>The game keeps a count of how many tries the player has made to guess the correct number.</center>
-##### <center>Guidance</center>
-###### <center> Provides clear guidance after each guess, instructing players whether to guess higher or lower.</center>
-##### <center>Simple Exit Mechanism</center>
-###### <center>Players can easily exit the game by typing "Q", receiving a message with the correct answer before leaving.</center>
-##### <center>Colored Output</center>
-###### <center> Uses colors to enhance the gaming experience, with different colors representing high, low, or correct guesses.</center>
 
 
 
@@ -49,7 +24,35 @@
 
 
 
-## <center>User Manual</center>
+## Overview
+The Number Guessing Game offers an interactive way to test your guessing skills. Players are asked to guess a number, with feedback provided after each attempt to indicate if the guess was too high or too low. There are no restrictions on how many attempts can be made, and users can quit at any time.
+
+
+------------
+
+
+
+## Key Features
+##### Non-Restrictive
+###### The player can guess as many times as they need without a time limit or penalties for incorrect guesses.
+##### Tracking Attempts
+###### The game keeps a count of how many tries the player has made to guess the correct number.
+##### Guidance
+###### Provides clear guidance after each guess, instructing players whether to guess higher or lower.
+##### Simple Exit Mechanism
+###### Players can easily exit the game by typing "Q", receiving a message with the correct answer before leaving.
+##### Colored Output
+###### Uses colors to enhance the gaming experience, with different colors representing high, low, or correct guesses.
+
+
+
+------------
+
+
+
+## User Manual
+</div>
+
 #### Prerequisites
 Ensure that the following are installed on your system:
 - Bash shell (`/bin/bash`)
@@ -124,8 +127,9 @@ $ number=$((RANDOM % 100))
 ```
 
 ------------
+<div align="center">
 
-## <center>Ongoing Improvements and Known Bugs</center>
+## Ongoing Improvements and Known Bugs
 
 | # | Name               | Type             | Description                                                                                                                                                                                                       |
 |---|--------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -139,14 +143,15 @@ $ number=$((RANDOM % 100))
 
 ------------
 
-## <center>Found a bug?</center>
-<p align="center">
+## Found a bug?
+
 If you encounter any issues or bugs while using this project, please feel free to open an issue in the Issues section of the repository. Make sure to describe the bug in detail, providing steps to reproduce, expected behavior, and any relevant logs or screenshots.
 
 If you'd like to contribute a fix for the issue, you're welcome to submit a pull request (PR). When submitting a PR, please reference the issue number and provide a description of the changes made.
-</p>
 
 ------------
+
+</div>
 
 
 
