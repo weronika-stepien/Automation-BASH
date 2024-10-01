@@ -1,21 +1,22 @@
-# <center></centerSoftware>AWS RAM Watchdog
-#### <center> Automate memory checks</center>
-<p align="center">
+<div align="center">
 
-[![GIF](https://upload.wikimedia.org/wikipedia/commons/d/df/Wikisp-logo-icon-black.svg "GIF")](https://upload.wikimedia.org/wikipedia/commons/d/df/Wikisp-logo-icon-black.svg "GIF")
+# AWS RAM Watchdog
+#### Automate memory checks
+
+
+![Preview](../../Images/ec2.png)
 
 ![Static Badge](https://img.shields.io/badge/fedora-lightblue%20%20%20%20%20%20%20%20%20%20?style=for-the-badge&logo=fedora&logoColor=lightblue&logoSize=auto&labelColor=black)  ![Static Badge](https://img.shields.io/badge/redhat-darkred%20%20%20%20%20%20?style=for-the-badge&logo=redhat&logoColor=darkred&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/ubuntu-orange?style=for-the-badge&logo=ubuntu&logoColor=orange&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/debian-gray?style=for-the-badge&logo=debian&logoColor=white&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/macos-darkviolet?style=for-the-badge&logo=apple&logoColor=darkviolet&logoSize=auto&labelColor=black)
 
-</p>
+
 
 ------------
 
-<p align="center">
+
 ![Static Badge](https://img.shields.io/badge/Table%20%20%20%20%20%20%20%20%20%20%20of%20%20%20%20%20%20%20%20%20%20Contents-blue?style=for-the-badge&logoColor=darkviolet)
 
 **| [Overview](#overview) | [Key Features](#key-features) | [User Manual](#user-manual) | [Ongoing Improvements and Known Bugs](#ongoing-improvements-and-known-bugs) | [Found a Bug?](#found-a-bug) |**
 
-</p>
 
 
 
@@ -23,30 +24,32 @@
 
 
 
-## <center>Overview</center>
-<p align="center">This script monitors available RAM on AWS virtual machines and sends a notification email when memory falls below a threshold. Integrating it with crontab ensures regular memory checks at scheduled times, allowing for proactive memory management without manual execution.</p>
+## Overview
+This script monitors available RAM on AWS virtual machines and sends a notification email when memory falls below a threshold. Integrating it with crontab ensures regular memory checks at scheduled times, allowing for proactive memory management without manual execution.
 
 
 ------------
 
 
 
-## <center>Key Features</center>
-##### <center>Custom Threshold</center>
-###### <center> Users can set custom memory thresholds for triggering email alerts based on specific system requirements.</center>
-##### <center>Integration with Crontab</center>
-###### <center>Can be scheduled to run at regular intervals using crontab, automating the monitoring process without manual intervention.</center>
-##### <center>Email Notification System</center>
-###### <center>Sends email alerts when memory falls below a predefined threshold, keeping users informed in real-time.</center>
-##### <center>Notification Customization</center>
-###### <center>Users can easily adjust the subject and content of the email notifications.</center>
+## Key Features
+##### Custom Threshold
+######  Users can set custom memory thresholds for triggering email alerts based on specific system requirements.
+##### Integration with Crontab
+###### Can be scheduled to run at regular intervals using crontab, automating the monitoring process without manual intervention.
+##### Email Notification System
+###### Sends email alerts when memory falls below a predefined threshold, keeping users informed in real-time.
+##### Notification Customization
+###### Users can easily adjust the subject and content of the email notifications.
 
 
 ------------
 
 
 
-## <center>User Manual</center>
+## User Manual
+</div>
+
 ####  Requirements
 ######  Administrator (sudo) rights:
 ```bash
@@ -120,7 +123,9 @@ crontab -e
 
 ------------
 
-## <center>Ongoing Improvements and Known Bugs</center>
+<div align="center">
+
+## Ongoing Improvements and Known Bugs
 
 | # | Name               | Type | Description                                                                                                                                               |
 |---|--------------------|------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -132,12 +137,12 @@ crontab -e
 
 ------------
 
-## <center>Found a bug?</center>
-<p align="center">
+## Found a bug?
+
 If you encounter any issues or bugs while using this project, please feel free to open an issue in the Issues section of the repository. Make sure to describe the bug in detail, providing steps to reproduce, expected behavior, and any relevant logs or screenshots.
 
 If you'd like to contribute a fix for the issue, you're welcome to submit a pull request (PR). When submitting a PR, please reference the issue number and provide a description of the changes made.
-</p>
+
 
 ------------
 
