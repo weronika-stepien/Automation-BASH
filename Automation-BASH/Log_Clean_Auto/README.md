@@ -4,7 +4,7 @@
 ####  Automates removal of all files from a specified location
 
 
-![Preview](./images/log-del.png)
+![Preview](../../Images/log-del.png)
 
 ![Static Badge](https://img.shields.io/badge/fedora-lightblue%20%20%20%20%20%20%20%20%20%20?style=for-the-badge&logo=fedora&logoColor=lightblue&logoSize=auto&labelColor=black)  ![Static Badge](https://img.shields.io/badge/redhat-darkred%20%20%20%20%20%20?style=for-the-badge&logo=redhat&logoColor=darkred&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/ubuntu-orange?style=for-the-badge&logo=ubuntu&logoColor=orange&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/debian-gray?style=for-the-badge&logo=debian&logoColor=white&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/macos-darkviolet?style=for-the-badge&logo=apple&logoColor=darkviolet&logoSize=auto&labelColor=black)
 
@@ -109,10 +109,11 @@ Alternatively, if you want to delete files older than a specific number of hours
 $ files=$(find "$path" -name "*.log" -mmin +1440)
  ```
 ------------
+<div align="center">
 
-## <center>Ongoing Improvements and Known Bugs</center>
+## Ongoing Improvements and Known Bugs
 
-##### <center> So Far So Good</center>
+##### So Far So Good
 
 
 
@@ -120,12 +121,13 @@ $ files=$(find "$path" -name "*.log" -mmin +1440)
 
 ------------
 
-## <center>Found a bug?</center>
-<p align="center">
+## Found a bug?
+
 If you encounter any issues or bugs while using this project, please feel free to open an issue in the Issues section of the repository. Make sure to describe the bug in detail, providing steps to reproduce, expected behavior, and any relevant logs or screenshots.
 
 If you'd like to contribute a fix for the issue, you're welcome to submit a pull request (PR). When submitting a PR, please reference the issue number and provide a description of the changes made.
-</p>
+
+</div>
 
 ------------
 
