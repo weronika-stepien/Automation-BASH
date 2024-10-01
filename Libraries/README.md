@@ -1,3 +1,5 @@
+<div align="center">
+
 # Library of Functions
 #### Store and organize all the useful Bash functions ever created for quick reference and reuse
 
