@@ -1,0 +1,5 @@
+Bruce:Wayne:1007 Mountain Drive:USA:Gotham City:Gotham:91939
+Diego:Vega:Zorro Street 2:USA:Los Angeles:California:1919
+James:Bond:30 Wellington Square:UK:London City:London:007
+Johnny:Blaze:Quentin Carnival:USA:New York City:New York:616
+Selina:Kyle:1940 Catwoman Street:USA:Gotham City:Gotham:9
