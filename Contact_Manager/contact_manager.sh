@@ -104,6 +104,7 @@ create()
 		# Giving user another chance of adding the record
                 if YesNo Do you want to add another one?
                 then
+			clear
                         create
 		else
 			echo
