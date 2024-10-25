@@ -2,6 +2,14 @@
 
 ![Shell](https://github-repo-img.s3.eu-central-1.amazonaws.com/shell.png)
 
+------------
+
+![Static Badge](https://img.shields.io/badge/Table%20%20%20%20%20%20%20%20%20%20%20of%20%20%20%20%20%20%20%20%20%20Contents-blue?style=for-the-badge&logoColor=darkviolet)
+
+**| [System and Process Management Commands](#system-and-process-management-commands) | [File and Directory Operations](#file-and-directory-operations) | [Automation and Scripting Basics](#automation-and-scripting-basics) | [Package Management Commands](#package-management-commands) | [Networking and Connectivity Commands](#networking-and-connectivity-commands) | [User and Permission Management](#user-and-permission-management) | [Disk and File System Management](#disk-and-file-system-management) | [DevOps and Automation Specific Commands](#devops-and-automation-specific-commands) | [Docker Commands ](#docker-commands) | [Kubernetes Commands](#kubernetes-commands) | [Security and Encryption](#security-and-encryption) |**
+
+------------
+
 </div>
 
 ## System and Process Management Commands
